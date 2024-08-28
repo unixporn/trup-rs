@@ -7,7 +7,7 @@ edition = "2021"
 serenity.workspace = true
 poise.workspace = true
 thiserror = "1.0.59"
-sqlx = { version = "0.7.4", features = ["runtime-tokio-rustls", "sqlite", "chrono"] }
+sqlx = { version = "0.8.1", features = ["runtime-tokio-rustls", "sqlite", "chrono"] }
 anyhow = "1.0.82"
 chrono = "0.4.38"
 itertools = "0.11.0"
