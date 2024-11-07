@@ -6,7 +6,7 @@ edition = "2021"
 [dependencies]
 serenity.workspace = true
 poise.workspace = true
-thiserror = "1.0.59"
+thiserror = "2.0.0"
 sqlx = { version = "0.7.4", features = ["runtime-tokio-rustls", "sqlite", "chrono"] }
 anyhow = "1.0.82"
 chrono = "0.4.38"
